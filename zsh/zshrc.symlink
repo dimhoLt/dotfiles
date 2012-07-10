@@ -6,7 +6,7 @@ export PROJECTS=~/Development
 
 ZSH_THEME="spacepig"
 
-plugins=(git mercurial django sublime brew)
+plugins=(git mercurial django sublime brew zend)
 
 source $ZSH/oh-my-zsh.sh
 
