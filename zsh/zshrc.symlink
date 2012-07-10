@@ -1,0 +1,21 @@
+export ZSH=$HOME/.oh-my-zsh
+export DOTFILES=$HOME/.dotfiles
+export PROJECTS=~/Development
+
+ZSH_THEME="spacepig"
+
+plugins=(git mercurial django sublime brew)
+
+source $ZSH/oh-my-zsh.sh
+
+for config_file ($DOTFILES/**/*.zsh) source $config_file
+
+# For secret things not to be versioned
+if [[ -a ~/.localrc ]]
+then
+	source ~/.localrc
+fi
+
+PATH=$HOME/bin:$PATH
+export PATH
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
