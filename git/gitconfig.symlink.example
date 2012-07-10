@@ -1,0 +1,9 @@
+[user]
+	name = Name
+	email = email@example.com
+[github]
+	user = github-user
+[color]
+	diff = auto
+	status = auto
+	branch = auto

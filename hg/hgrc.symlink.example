@@ -1,0 +1,18 @@
+[ui]
+username = Name <email@example.com>
+
+ssh = ssh -C
+
+[extensions]
+hgshelve=/path/to/hgshelve/hgshelve.py
+hgext.churn=
+pager=
+graphlog=
+color=
+fetch=
+record=
+prompt=/path/to/hg-prompt/prompt.py
+
+[pager]
+pager= LESS='FSRX' less
+ignore= help, version, update, serve, record
