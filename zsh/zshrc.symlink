@@ -1,3 +1,5 @@
+# influenced by Zach Holman's setup
+
 export ZSH=$HOME/.oh-my-zsh
 export DOTFILES=$HOME/.dotfiles
 export PROJECTS=~/Development
