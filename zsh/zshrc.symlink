@@ -5,7 +5,10 @@ export DOTFILES=$HOME/.dotfiles
 export PROJECTS=~/Development
 
 ZSH_THEME="spacepig"
-
+# disable auto update checking
+DISABLE_AUTO_UPDATE="true"
+# case sensitive completion
+CASE_SENSITIVE="true"
 plugins=(git mercurial django sublime brew zend)
 
 source $ZSH/oh-my-zsh.sh
