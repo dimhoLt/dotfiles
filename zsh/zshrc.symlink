@@ -4,6 +4,9 @@ export ZSH=$HOME/.oh-my-zsh
 export DOTFILES=$HOME/.dotfiles
 export PROJECTS=~/Development
 
+export LANG=en_US.UTF-8
+export EVENT_NOKQUEUE=yes
+
 ZSH_THEME="spacepig"
 # disable auto update checking
 DISABLE_AUTO_UPDATE="true"
