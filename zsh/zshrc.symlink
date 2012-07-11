@@ -2,7 +2,7 @@
 
 export ZSH=$HOME/.oh-my-zsh
 export DOTFILES=$HOME/.dotfiles
-export PROJECTS=~/Development
+export PROJECTS=~/Code
 
 export LANG=en_US.UTF-8
 export EVENT_NOKQUEUE=yes
@@ -12,7 +12,7 @@ ZSH_THEME="spacepig"
 DISABLE_AUTO_UPDATE="true"
 # case sensitive completion
 CASE_SENSITIVE="true"
-plugins=(git mercurial django sublime brew zend)
+plugins=(osx git mercurial django sublime brew zend)
 
 source $ZSH/oh-my-zsh.sh
 
