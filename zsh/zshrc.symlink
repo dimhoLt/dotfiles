@@ -12,7 +12,7 @@ ZSH_THEME="spacepig"
 DISABLE_AUTO_UPDATE="true"
 # case sensitive completion
 CASE_SENSITIVE="true"
-plugins=(osx git mercurial django sublime brew zend)
+plugins=(git mercurial osx brew sublime zend django)
 
 source $ZSH/oh-my-zsh.sh
 
