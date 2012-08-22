@@ -12,6 +12,7 @@ color=
 fetch=
 record=
 prompt=/path/to/hg-prompt/prompt.py
+rebase=
 
 [pager]
 pager= LESS='FSRX' less
