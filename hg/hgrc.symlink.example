@@ -13,6 +13,7 @@ fetch=
 record=
 prompt=/path/to/hg-prompt/prompt.py
 rebase=
+mq=
 
 [pager]
 pager= LESS='FSRX' less
