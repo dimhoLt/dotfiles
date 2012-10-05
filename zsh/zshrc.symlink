@@ -3,6 +3,7 @@
 export ZSH=$HOME/.oh-my-zsh
 export DOTFILES=$HOME/.dotfiles
 export PROJECTS=~/Code
+export NODE_BIN=/usr/local/share/npm/bin/
 
 export LANG=en_US.UTF-8
 export EVENT_NOKQUEUE=yes
@@ -24,6 +25,6 @@ then
 	source ~/.localrc
 fi
 
-PATH=$HOME/bin:$PATH
+PATH=$HOME/bin:$NODE_BIN:/usr/local/bin:$PATH
 export PATH
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
