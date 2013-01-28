@@ -26,5 +26,5 @@ then
 	source ~/.localrc
 fi
 
-PATH=$HOME/bin:$NPM_BIN:/usr/local/bin:$PATH
+PATH=$HOME/bin:$NPM_BIN:/usr/local/bin:/usr/local/sbin:$PATH
 export PATH
